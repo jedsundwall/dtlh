@@ -1,0 +1,7 @@
+baseURL = "/"
+title = "Downtown Loyal Heights"
+languageCode = "en-us"
+disableKinds = ["taxonomy", "term"]
+
+[markup.goldmark.renderer]
+  unsafe = true
