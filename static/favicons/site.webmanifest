@@ -1,0 +1,14 @@
+{
+  "name": "Downtown Loyal Heights",
+  "short_name": "DTLH",
+  "description": "Loyal Heights should own Loyal Heights.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F1ECE2",
+  "theme_color": "#B53050",
+  "icons": [
+    { "src": "/favicons/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/favicons/favicon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
