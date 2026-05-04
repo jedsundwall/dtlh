@@ -1,7 +1,10 @@
-baseURL = "/"
+baseURL = "https://dtlh.org/"
 title = "Downtown Loyal Heights"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "Loyal Heights should own Loyal Heights. A concept for community-owned redevelopment in Loyal Heights."
 
 [markup.goldmark.renderer]
   unsafe = true
