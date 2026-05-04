@@ -4,7 +4,7 @@ title: "A concept for community-owned redevelopment in Loyal Heights"
 
 The two assembled parcels at the southeast corner of 24th Ave NW and NW 80th St are [listed for $8.8M as a redevelopment site](https://www.zillow.com/homedetails/2363-NW-80TH-Street-Seattle-WA-98117/461263292_zpid/). Whatever gets built there will reshape that corner of our neighborhood for the next several decades.
 
-**Do Loyal Heights residents want to own and govern that redevelopment ourselves, or do we want to watch it happen to us?**
+**Do Loyal Heights residents want to own and govern that redevelopment, or do we want to watch it happen to us?**
 
 ## The Idea
 
