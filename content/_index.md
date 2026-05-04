@@ -42,10 +42,10 @@ If the response shows there are five anchors and a critical mass of neighbors wh
 ## To Express Interest or Learn More
 
 <div class="contact">
-
-- Write to **Jed Sundwall** at [jedsundwall@gmail.com](mailto:jedsundwall@gmail.com)
-- Open an [issue on the DTLH GitHub](https://github.com/jedsundwall/dtlh/issues)
-
+<ul>
+<li>Write to <strong>Jed Sundwall</strong> at <a href="mailto:jedsundwall@gmail.com">jedsundwall@gmail.com</a></li>
+<li>Open an <a href="https://github.com/jedsundwall/dtlh/issues">issue on the DTLH GitHub</a></li>
+</ul>
 </div>
 
 <p class="disclaimer">I know nothing about commercial real estate ownership or development. This is a concept document, not an offer to sell or a solicitation of an offer to buy any security. Any future investment will be subject to applicable securities laws and made only through formal offering documents to qualified investors.</p>
