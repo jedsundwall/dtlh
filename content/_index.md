@@ -1,6 +1,5 @@
 ---
-title: "Loyal Heights Should Own Loyal Heights"
-subtitle: "A concept for community-owned redevelopment in Loyal Heights"
+title: "A concept for community-owned redevelopment in Loyal Heights"
 ---
 
 The two assembled parcels at the southeast corner of 24th Ave NW and NW 80th St are [listed for $8.8M as a redevelopment site](https://www.zillow.com/homedetails/2363-NW-80TH-Street-Seattle-WA-98117/461263292_zpid/). Whatever gets built there will reshape that corner of our neighborhood for the next several decades. This document explores whether we, as Loyal Heights residents, want to own and govern that redevelopment ourselves rather than watch it happen to us.
@@ -44,8 +43,9 @@ If the response shows there are five anchors and a critical mass of neighbors wh
 
 <div class="contact">
 
-**Jed Sundwall** — [jedsundwall@gmail.com](mailto:jedsundwall@gmail.com)
+- Write to **Jed Sundwall** at [jedsundwall@gmail.com](mailto:jedsundwall@gmail.com)
+- Open an [issue on the DTLH GitHub](https://github.com/jedsundwall/dtlh/issues)
 
 </div>
 
-<p class="disclaimer">This is a concept document, not an offer to sell or a solicitation of an offer to buy any security. Any future investment will be subject to applicable securities laws and made only through formal offering documents to qualified investors.</p>
+<p class="disclaimer">I know nothing about commercial real estate ownership or development. This is a concept document, not an offer to sell or a solicitation of an offer to buy any security. Any future investment will be subject to applicable securities laws and made only through formal offering documents to qualified investors.</p>
