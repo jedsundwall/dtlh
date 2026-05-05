@@ -41,7 +41,7 @@ It's already here. The Seattle Times [reported in May 2026](https://www.seattlet
 
 The goal is to create a mechanism for more people in the neighborhood to own and govern commercial property here. Equity without governance is a financial product. Equity with governance is community ownership.
 
-What that governance actually looks like (e.g. board composition, voting thresholds, covenants, the line between routine and major decisions) is to be determined. The right structure is something to work out together, with input from anchors, neighbors, and counsel, not something to commit to on a website.
+What that governance actually looks like (e.g. board composition, voting thresholds, covenants, the line between routine and major decisions) is to be determined. The right structure is something to work out together, with input from anchors, neighbors, and counsel.
 
 ## Where This Is
 
