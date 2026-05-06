@@ -18,19 +18,23 @@ Provide the equity needed for acquisition and to secure development financing. A
 
 ### Neighbor investors ($10K and up, with smaller monthly options in a later phase)
 
-Open to Loyal Heights residents. Neighbors get pro-rata equity, a voice in governance, and a real stake in what our corner becomes. The mechanism for small-dollar neighborhood participation is modeled on Mercy Corps' Community Investment Trust in East Portland ([investcit.org](https://investcit.org)), which has enabled 345+ households to invest $10–$100/month in a single commercial property they collectively own and govern.
+Open to Loyal Heights residents. Neighbors get pro-rata equity, a voice in governance, and a real stake in what our corner becomes. The mechanism for small-dollar neighborhood participation is modeled on Mercy Corps' [Community Investment Trust in East Portland](https://investcit.org), which has enabled 345+ households to invest $10–$100/month in a single commercial property they collectively own and govern.
 
 ## Why This Corner
 
-The intersection at 24th and 80th is the heart of our community. Let's call it Downtown Loyal Heights (DTLH). Loyal Heights Elementary is one block to the west. The Loyal Heights Playfield is three blocks to the southeast. We're lucky to live in a neighborhood with an impressive [Walk Score of 73 and Bike Score of 81](https://www.walkscore.com/WA/Seattle/Loyal_Heights). We're in great shape, but we can do better. DTLH should be the paragon of a walkable community center that is clean, safe, and appealing to people of all ages.
+The intersection at 24th and 80th is the heart of our community. Let's call it Downtown Loyal Heights (DTLH). Loyal Heights Elementary is one block to the west. The Loyal Heights Playfield is three blocks to the southeast. We're lucky to live in a neighborhood with an impressive [Walk Score of 73 and Bike Score of 81](https://www.walkscore.com/WA/Seattle/Loyal_Heights), but we can do better. DTLH should be the paragon of a walkable community center that is clean, safe, and appealing to people of all ages.
 
-The current zoning supports up to 55 feet of mixed-use development. Done well, this becomes ground-floor neighborhood retail with a few apartments above, the kind of building that can make a community feel alive and safe. Done poorly, it becomes another generic anywhere-building with vacant storefronts being used as tax write-offs. Loyal Heights is a remarkable neighborhood, and we have a chance to show the world what community-led growth can look like.
+The current zoning supports up to 55 feet of mixed-use development. Done well, this becomes ground-floor neighborhood retail with a few apartments above, the kind of building that can make a community feel alive and safe. Done poorly, it becomes another generic anywhere-building with vacant storefronts being used as tax write-offs.
+
+Loyal Heights is a remarkable neighborhood, and we have a chance to show the world what community-led growth can look like.
 
 ## Why Now
 
 Ballard is changing fast. In 2019, Seattle City Council [voted unanimously to upzone 27 neighborhoods](https://www.myballard.com/2019/03/19/city-council-votes-unanimously-to-upzone-27-neighborhoods/), increasing density across Crown Hill and the broader Ballard area. More recently, [the One Seattle Plan](https://www.postalley.org/2024/04/02/upzoning-mayor-harrells-plan-to-grow-seattle/) designated Ballard as a "Regional Center," which is the city's highest density category, alongside Downtown and Capitol Hill. Growth is coming whether we organize for it or not.
 
-The Seattle Times [reported in May 2026](https://www.seattletimes.com/business/real-estate/ballard-neighborly-homeowners-stay-put-making-it-harder-for-buyers/) that Ballard's first-quarter home sales were the highest since 2022, with buyers competing against town-home developers and all-cash investors. Town homes and ADUs are filling in the residential blocks north of 65th Street. The redevelopment site at 24th and 80th is exactly the kind of parcel that, in the normal course of things, gets bought and built without the neighborhood having any say. We have a narrow window to do this differently.
+The Seattle Times [just reported](https://www.seattletimes.com/business/real-estate/ballard-neighborly-homeowners-stay-put-making-it-harder-for-buyers/) that Ballard's 2026 first-quarter home sales were the highest since 2022, with buyers competing against town-home developers and all-cash investors. Town homes and ADUs are filling in the residential blocks north of 65th Street. 
+
+The redevelopment site at 24th and 80th is exactly the kind of parcel that, in the normal course of things, gets bought and built without the neighborhood having any say. We have a narrow window to do this differently.
 
 ## Two-Phase Structure
 
@@ -54,7 +58,7 @@ If the response shows there are five anchors and a critical mass of neighbors wh
 ## Updates
 
 - Downtown Loyal Heights has been [featured on My Ballard](https://www.myballard.com/2026/05/05/loyal-heights-resident-proposes-community-owned-development/).
-- A surprising amount of neighbors who I don't know have emailed me and indicated willingness to invest. Loyal Heights is amazing.
+- A surprising amount of neighbors who I don't know have emailed me and indicated willingness to invest. Within a day of launching this site, I'm tracking $60,010 in pledges (see disclaimer below), half from people who I don't know. Loyal Heights is amazing.
 - I'll find a better way to let people subscribe to updates if we build any momentum.
 
 ## To Express Interest or Learn More
@@ -66,6 +70,8 @@ If the response shows there are five anchors and a critical mass of neighbors wh
 ## Disclaimer
 
 *I know nothing about commercial real estate ownership or development. This is a concept document, not an offer to sell or a solicitation of an offer to buy any security. Any future investment will be subject to applicable securities laws and made only through formal offering documents to qualified investors.*
+
+*No money should change hands for this at all. I'm absolutely not accepting money from anyone. Any pledges I'm tracking are not binding in any way whatsover. Yes, I got the dtlh.org domain, but Downtown Loyal Heights is not a legal entity, let alone a 501(c)(3) organization. I'm not a lawyer, but I think if I TYPE IN ALL CAPS HERE I CAN GET MY POINT ACROSS. THIS IS NOT A THING YET.*
 
 ## FAQ
 
@@ -79,13 +85,15 @@ Everyone I've talked to about this has ideas of what they'd like to see at 24th 
 
 ### Is this weird?
 
-Not at all. One way to look at this is as an invitation for people in Loyal Heights to band together as an investment team. A big chunk of our economy is based on the idea of cooperatively owned capital (i.e., publicly traded corporations). Think of this as a regionally specific corporation. I'm highly confident that enough capital exists in the neighborhood to make this possible. My goal is to be diligent throughout this entire process to make sure that no money changes hands until we're certain that it's a sound investment.
+Not at all.
 
-### An investment? What about [insert world-changing idea here]?
+One way to look at this is as an invitation for people in Loyal Heights to band together as an investment team. A big chunk of our economy is runs on the fact that total strangers can cooperatively own capital (i.e., publicly traded corporations). This would be a corporation owned by a regionally-specific group of owners. I'm highly confident that enough capital exists in the neighborhood to make this possible. My goal is to be diligent throughout this entire process to make sure that no money changes hands until we're certain that it's a sound investment.
+
+### A sound investment? Lame. What about [insert world-changing idea here]?
 
 Completing this transaction as described here is already hard enough. Let's see if we can make a corner of our neighborhood really nice and take it from there.
 
-One somewhat radical idea in this proposal is that we should make shares of local real estate accessible to residents who can't afford to buy their own property. To be specific: shares in this entity should be available to anyone who lives in Loyal Heights, whether they own their homes or not. Right now, too many people are completely shut out from owning equity in anything. I'd like us to create a path for more people in our community to to invest in the growth of our region.
+One somewhat radical idea in this proposal is that we should make shares of local real estate accessible to residents who can't afford to buy their own property. Right now, too many people are completely shut out from owning equity in anything. I'd like us to create a path for more people in our community to invest in – and benefit from – the growth of our region.
 
 ### What about parking?
 
