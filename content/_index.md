@@ -51,22 +51,21 @@ No entity has been formed. No securities have been offered. The point of this do
 
 If the response shows there are five anchors and a critical mass of neighbors who want to do this, the next steps are: development pro forma, securities counsel, letter of intent to the seller. If the response shows otherwise, the project doesn't happen and no one is out anything but a few hours of conversation.
 
-## To Express Interest or Learn More
-
-<div class="contact">
-<ul>
-<li>Write to <strong>Jed Sundwall</strong> at <a href="mailto:jedsundwall@gmail.com">jedsundwall@gmail.com</a></li>
-<li>Open an <a href="https://github.com/jedsundwall/dtlh/issues">issue on the DTLH GitHub</a></li>
-</ul>
-</div>
-
 ## Updates
 
 - Downtown Loyal Heights has been [featured on My Ballard](https://www.myballard.com/2026/05/05/loyal-heights-resident-proposes-community-owned-development/).
 - A surprising amount of neighbors who I don't know have emailed me and indicated willingness to invest. Loyal Heights is amazing.
 - I'll find a better way to let people subscribe to updates if we build any momentum.
 
-<p class="disclaimer">I know nothing about commercial real estate ownership or development. This is a concept document, not an offer to sell or a solicitation of an offer to buy any security. Any future investment will be subject to applicable securities laws and made only through formal offering documents to qualified investors.</p>
+## To Express Interest or Learn More
+
+- Write to <strong>Jed Sundwall</strong> at jedsundwall@gmail.com
+- Open an [issue on the DTLH GitHub](https://github.com/jedsundwall/dtlh/issues)
+
+
+## Disclaimer
+
+*I know nothing about commercial real estate ownership or development. This is a concept document, not an offer to sell or a solicitation of an offer to buy any security. Any future investment will be subject to applicable securities laws and made only through formal offering documents to qualified investors.*
 
 ## FAQ
 
