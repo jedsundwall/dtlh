@@ -83,7 +83,9 @@ Not at all. One way to look at this is as an invitation for people in Loyal Heig
 
 ### An investment? What about [insert world-changing idea here]?
 
-Completing this transaction as described here is already hard enough. One somewhat radical idea is that we should make shares of local real estate accessible to residents who can't afford to buy their own property. To be specific: shares in this entity should be available to anyone who lives in Loyal Heights, whether they own their homes or not. Right now, too many people are completely shut out from owning equity in anything. I'd like us to create a path for more people in our community to be able to invest in the growth of our region.
+Completing this transaction as described here is already hard enough. Let's see if we can make a corner of our neighborhood really nice and take it from there.
+
+One somewhat radical idea in this proposal is that we should make shares of local real estate accessible to residents who can't afford to buy their own property. To be specific: shares in this entity should be available to anyone who lives in Loyal Heights, whether they own their homes or not. Right now, too many people are completely shut out from owning equity in anything. I'd like us to create a path for more people in our community to to invest in the growth of our region.
 
 ### What about parking?
 
