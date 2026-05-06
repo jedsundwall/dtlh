@@ -59,7 +59,7 @@ If the response shows there are five anchors and a critical mass of neighbors wh
 
 ## To Express Interest or Learn More
 
-- Write to <strong>Jed Sundwall</strong> at jedsundwall@gmail.com
+- Write to **Jed Sundwall** at jedsundwall@gmail.com
 - Open an [issue on the DTLH GitHub](https://github.com/jedsundwall/dtlh/issues)
 
 
