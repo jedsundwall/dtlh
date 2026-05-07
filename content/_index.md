@@ -1,5 +1,8 @@
 ---
 title: "A concept for community-owned redevelopment in Loyal Heights"
+milestone_neighbors: 13
+milestone_pledged: "$102,000"
+milestone_tagline: "Our neighbors are amazing."
 ---
 
 The two assembled parcels at the southeast corner of 24th Ave NW and NW 80th St are [listed for $8.8M as a redevelopment site](https://www.zillow.com/homedetails/2363-NW-80TH-Street-Seattle-WA-98117/461263292_zpid/). Whatever gets built there will reshape that corner of our neighborhood for the next several decades.
@@ -49,7 +52,7 @@ What that governance actually looks like (e.g., board composition, voting thresh
 
 ## Where This Is
 
-Concept stage. The seller has not been approached, but I have sent a message to their realtor about this.
+Concept stage. I am in touch with the seller via their realtor, but we don't have a credible offer to make yet.
 
 No entity has been formed. No securities have been offered. The point of this document is to gauge interest from prospective anchors and from neighbors who would want to participate, and to inform conversations with the seller, securities counsel, and lenders.
 
@@ -58,7 +61,7 @@ If the response shows there are five anchors and a critical mass of neighbors wh
 ## Updates
 
 - Downtown Loyal Heights has been [featured on My Ballard](https://www.myballard.com/2026/05/05/loyal-heights-resident-proposes-community-owned-development/).
-- A surprising amount of neighbors who I don't know have emailed me and indicated willingness to invest. Within a day of launching this site, I'm tracking $60,010 in pledges (see disclaimer below), half from people who I don't know. Loyal Heights is amazing.
+- A surprising amount of neighbors who I don't know have emailed me and indicated willingness to invest. Within a day of launching this site, I'm now tracking over $100,000 in pledges (see disclaimer below) and many gracious offers to help, over half from people who I don't know. Loyal Heights is amazing.
 - I'll find a better way to let people subscribe to updates if we build any momentum.
 
 ## To Express Interest or Learn More

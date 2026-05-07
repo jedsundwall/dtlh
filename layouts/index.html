@@ -171,6 +171,34 @@
       margin-top: 52px !important;
     }
 
+    /* ── Milestone banner ── */
+    .milestone-banner {
+      background: var(--pink-deep);
+      color: var(--cream);
+      text-align: center;
+      padding: 20px 32px;
+    }
+    .milestone-numbers {
+      font-family: "Germania One", serif;
+      font-size: clamp(28px, 5vw, 48px);
+      line-height: 1;
+      letter-spacing: 0.02em;
+      margin: 0;
+    }
+    .milestone-numbers span {
+      opacity: 0.6;
+      font-size: 0.55em;
+      vertical-align: middle;
+      margin: 0 0.4em;
+    }
+    .milestone-tagline {
+      font-family: "Source Serif 4", Georgia, serif;
+      font-style: italic;
+      font-size: clamp(14px, 1.6vw, 17px);
+      opacity: 0.85;
+      margin: 8px 0 0;
+    }
+
     /* ── Footer ── */
     .site-footer {
       border-top: 1px solid var(--ink);
@@ -192,6 +220,13 @@
     <p class="tagline">Loyal Heights should own Loyal Heights.</p>
   </header>
   <hr class="masthead-divider">
+
+  {{ with .Params.milestone_pledged }}
+  <div class="milestone-banner">
+    <p class="milestone-numbers">{{ $.Params.milestone_neighbors }} neighbors <span>·</span> {{ . }} pledged</p>
+    <p class="milestone-tagline">{{ $.Params.milestone_tagline }}</p>
+  </div>
+  {{ end }}
 
   <article>
     <p class="eyebrow-label">May 2026</p>
