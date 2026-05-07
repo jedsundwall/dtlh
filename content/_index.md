@@ -5,7 +5,7 @@ milestone_pledged: "$112,000"
 milestone_tagline: "Our neighbors are amazing."
 ---
 
-The two assembled parcels at the southeast corner of 24th Ave NW and NW 80th St are [listed for $8.8M as a redevelopment site](https://www.zillow.com/homedetails/2363-NW-80TH-Street-Seattle-WA-98117/461263292_zpid/). Whatever gets built there will reshape that corner of our neighborhood for the next several decades.
+The two assembled parcels at the southeast corner NW 80th St and 24th Ave NW are [listed for $8.8M as a redevelopment site](https://www.zillow.com/homedetails/2363-NW-80TH-Street-Seattle-WA-98117/461263292_zpid/). Whatever gets built there will reshape that corner of our neighborhood for the next several decades.
 
 **Do Loyal Heights residents want to own and govern that redevelopment, or do we want to watch it happen to us?**
 
@@ -25,7 +25,7 @@ Open to Loyal Heights residents. Neighbors get pro-rata equity, a voice in gover
 
 ## Why This Corner
 
-The intersection at 24th and 80th is the heart of our community. Let's call it Downtown Loyal Heights (DTLH). Loyal Heights Elementary is one block to the west. The Loyal Heights Playfield is three blocks to the southeast. We're lucky to live in a neighborhood with an impressive [Walk Score of 73 and Bike Score of 81](https://www.walkscore.com/WA/Seattle/Loyal_Heights), but we can do better. DTLH should be the paragon of a walkable community center that is clean, safe, and appealing to people of all ages.
+The intersection at 80th and 24th is the heart of our community. Let's call it Downtown Loyal Heights (DTLH). Loyal Heights Elementary is one block to the west. The Loyal Heights Playfield is three blocks to the southeast. We're lucky to live in a neighborhood with an impressive [Walk Score of 73 and Bike Score of 81](https://www.walkscore.com/WA/Seattle/Loyal_Heights), but we can do better. DTLH should be the paragon of a walkable community center that is clean, safe, and appealing to people of all ages.
 
 The current zoning supports up to 55 feet of mixed-use development. Done well, this becomes ground-floor neighborhood retail with a few apartments above, the kind of building that can make a community feel alive and safe. Done poorly, it becomes another generic anywhere-building with vacant storefronts being used as tax write-offs.
 
@@ -37,7 +37,7 @@ Ballard is changing fast. In 2019, Seattle City Council [voted unanimously to up
 
 The Seattle Times [just reported](https://www.seattletimes.com/business/real-estate/ballard-neighborly-homeowners-stay-put-making-it-harder-for-buyers/) that Ballard's 2026 first-quarter home sales were the highest since 2022, with buyers competing against town-home developers and all-cash investors. Town homes and ADUs are filling in the residential blocks north of 65th Street. 
 
-The redevelopment site at 24th and 80th is exactly the kind of parcel that, in the normal course of things, gets bought and built without the neighborhood having any say. We have a narrow window to do this differently.
+The redevelopment site at 80th and 24th is exactly the kind of parcel that, in the normal course of things, gets bought and built without the neighborhood having any say. We have a narrow window to do this differently.
 
 ## Two-Phase Structure
 
@@ -84,7 +84,7 @@ This plan is not about what I want.
 
 The goal is to create a space that people in Loyal Heights are proud of and take care of because they *actually own it*.
 
-Everyone I've talked to about this has ideas of what they'd like to see at 24th and 80th. We already have a lot of businesses to love here, but I know that we could use more gathering spots for the people who live and work here. I've been lucky to live in places that have public spaces where people of all ages feel comfortable meeting and spending time together. I'd like us to have more spaces like that, but whatever comes of this will be a collaborative effort and it will inevitably not please everyone. 
+Everyone I've talked to about this has ideas of what they'd like to see at 80th and 24th. We already have a lot of businesses to love here, but I know that we could use more gathering spots for the people who live and work here. I've been lucky to live in places that have public spaces where people of all ages feel comfortable meeting and spending time together. I'd like us to have more spaces like that, but whatever comes of this will be a collaborative effort and it will inevitably not please everyone. 
 
 ### Is this weird?
 
