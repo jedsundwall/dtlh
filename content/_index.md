@@ -15,11 +15,11 @@ Form a community-owned real estate entity to acquire the parcels, design and bui
 
 ## Why This Corner
 
-The intersection at 80th and 24th is the heart of our community. Let's call it Downtown Loyal Heights (DTLH). From that intersection, you can see so many things that make our neighborhood great: a bakery, a fish shop, a butcher, a convenience store, a dance studio, preschools, restaurants, and more. You can see part of Loyal Heights Elementary and catch a glimpse of Mount Rainier on clear days.
+The intersection at 80th and 24th is the heart of our community. Let's call it Downtown Loyal Heights (DTLH). From that intersection, you can see so many things that make our neighborhood great: a bakery, a fish shop, a butcher, a convenience store, a dance and music studio, (multiple!) preschools, medical offices, restaurants, and more. You can see part of Loyal Heights Elementary and catch a glimpse of Mount Rainier on clear days.
 
 We're lucky to live in a neighborhood with an impressive [Walk Score of 73 and Bike Score of 81](https://www.walkscore.com/WA/Seattle/Loyal_Heights), but we can do better. DTLH should be the paragon of a walkable community center that is clean, safe, and appealing to people of all ages.
 
-The current zoning supports up to 55 feet of mixed-use development. Done well, this becomes ground-floor neighborhood retail with a few apartments above, the kind of building that can make a community feel alive and safe. Done poorly, it becomes another generic anywhere-building with vacant storefronts being used as tax write-offs.
+The current zoning supports up to 55 feet of mixed-use development. Done well, this becomes ground-floor neighborhood retail with a few apartments above, the kind of building that can make a community feel vibrant and safe. Done poorly, it becomes another generic anywhere-building with vacant storefronts being used as tax write-offs.
 
 Loyal Heights is a remarkable neighborhood, and we have a chance to show the world what community-led growth can look like.
 
@@ -31,24 +31,30 @@ The Seattle Times [just reported](https://www.seattletimes.com/business/real-est
 
 The redevelopment site at 80th and 24th is exactly the kind of parcel that, in the normal course of things, gets bought and built without the neighborhood having any say. We have a narrow window to do this differently.
 
-## Two Tiers of Participation
-
-### Anchor investors (~5 commitments at ~$1M each)
-
-Anchors provide the equity needed for acquisition and to secure development financing. They get a preferred return, board seats, and the financial upside that comes with bearing development risk. Accredited investors only, under standard private-placement rules.
-
-### Neighbor investors ($10K and up, with smaller monthly options in a later phase)
-
-Open to Loyal Heights residents. Neighbors get pro-rata equity, a voice in governance, and a real stake in what our corner becomes. The mechanism for small-dollar neighborhood participation is modeled on Mercy Corps' [Community Investment Trust in East Portland](https://investcit.org), which has enabled 300+ households to invest $10–$100/month in a single commercial property they collectively own and govern.
-
 ## Two-Phase Structure
 
 - **Phase 1**: Acquisition and development. Funded by accredited anchor investors under private-placement rules. This phase carries the development risk: entitlements, design, financing, construction.
 - **Phase 2**: Neighborhood ownership. Once the building is built and leased, a meaningful portion of the equity (target 25–40%) is sold to Loyal Heights residents under crowdfunding or community-investment-trust rules. Anchors get partial liquidity. Long-term ownership shifts to the people who live here.
 
+## Tiers of Participation
+
+### Anchor investors (~5 commitments at ~$1M each)
+
+Anchors provide the equity needed for acquisition and to secure development financing. They get a preferred return, board seats, and the financial upside that comes with bearing development risk. Accredited investors only, under standard private-placement rules.
+
+### Neighbor investors ($10K and up)
+
+Open to Loyal Heights residents. Neighbors get pro-rata equity, a voice in governance, and a real stake in what our corner becomes.
+
+### Smaller investors
+
+Once we're on our feet, we should make it easy for more Loyal Heights residents to buy in at lower dollar amounts.
+
 ## Governance
 
-History has a lot of lessons to teach about coordinated ownership within neighborhoods. Many of London's most beloved neighborhoods were built by "Great Estates" that owned land across many parcels and could coordinate design and stewardship over generations. A piece titled [*The fewer the merrier*](https://www.worksinprogress.news/p/the-fewer-the-merrier) argues that this kind of unified ownership is one of the underrated reasons those neighborhoods turned out so well, and that fragmented ownership is one of the underrated reasons modern ones often don't. The DTLH idea is to recreate that effect democratically: our neighborhood should create a single coordinating owner for the corner, but it should be accountable to the neighborhood.
+History has a lot of lessons to teach about coordinated ownership within neighborhoods. Many of London's most beloved neighborhoods were built by "Great Estates" that owned land across many parcels and could coordinate design and stewardship over generations. A piece titled [*The fewer the merrier*](https://www.worksinprogress.news/p/the-fewer-the-merrier) argues that this kind of unified ownership is one of the underrated reasons those neighborhoods turned out so well, and that fragmented ownership is one of the underrated reasons modern ones often don't.
+
+DTLH would recreate that effect democratically: our neighborhood should create a single coordinating owner for the corner, but it should be accountable to the neighborhood rather than an English duke (no offense to any dukes reading this).
 
 How this will actually work is to be determined, and I'm not the person to decide it. But, here's a sketch of what could be:
 
