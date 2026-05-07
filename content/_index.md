@@ -13,16 +13,6 @@ The two assembled parcels at the southeast corner of NW 80th St and 24th Ave NW 
 
 Form a community-owned real estate entity to acquire the parcels, design and build something the neighborhood actually wants, and hold the resulting property as a long-term, neighborhood-owned asset. Equity holders share in appreciation and rental income. Community governance will allow equity holders to influence what gets built.
 
-## Two Tiers of Participation
-
-### Anchor investors (~5 commitments at ~$1M each)
-
-Provide the equity needed for acquisition and to secure development financing. Anchors get a preferred return, board seats, and the financial upside that comes with bearing development risk. Accredited investors only, under standard private-placement rules.
-
-### Neighbor investors ($10K and up, with smaller monthly options in a later phase)
-
-Open to Loyal Heights residents. Neighbors get pro-rata equity, a voice in governance, and a real stake in what our corner becomes. The mechanism for small-dollar neighborhood participation is modeled on Mercy Corps' [Community Investment Trust in East Portland](https://investcit.org), which has enabled 300+ households to invest $10–$100/month in a single commercial property they collectively own and govern.
-
 ## Why This Corner
 
 The intersection at 80th and 24th is the heart of our community. Let's call it Downtown Loyal Heights (DTLH). From that intersection, you can see so many things that make our neighborhood great: a bakery, a fish shop, a butcher, a convenience store, a dance studio, preschools, restaurants, and more. You can see part of Loyal Heights Elementary and catch a glimpse of Mount Rainier on clear days.
@@ -40,6 +30,16 @@ Ballard is changing fast. In 2019, Seattle City Council [voted unanimously to up
 The Seattle Times [just reported](https://www.seattletimes.com/business/real-estate/ballard-neighborly-homeowners-stay-put-making-it-harder-for-buyers/) that Ballard's 2026 first-quarter home sales were the highest since 2022, with buyers competing against town-home developers and all-cash investors. Town homes and ADUs are filling in the residential blocks north of 65th Street. 
 
 The redevelopment site at 80th and 24th is exactly the kind of parcel that, in the normal course of things, gets bought and built without the neighborhood having any say. We have a narrow window to do this differently.
+
+## Two Tiers of Participation
+
+### Anchor investors (~5 commitments at ~$1M each)
+
+Anchors provide the equity needed for acquisition and to secure development financing. They get a preferred return, board seats, and the financial upside that comes with bearing development risk. Accredited investors only, under standard private-placement rules.
+
+### Neighbor investors ($10K and up, with smaller monthly options in a later phase)
+
+Open to Loyal Heights residents. Neighbors get pro-rata equity, a voice in governance, and a real stake in what our corner becomes. The mechanism for small-dollar neighborhood participation is modeled on Mercy Corps' [Community Investment Trust in East Portland](https://investcit.org), which has enabled 300+ households to invest $10–$100/month in a single commercial property they collectively own and govern.
 
 ## Two-Phase Structure
 
