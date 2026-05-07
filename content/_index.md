@@ -107,9 +107,9 @@ One way to look at this is as an invitation for people in Loyal Heights to band 
 
 Completing this transaction as described here is already hard enough. Let's see if we can make a corner of our neighborhood really nice and take it from there.
 
-The audacious proposal here is this: can we let a lot of people generate wealth over generations by building a beautiful neighborhood, rather than letting a few get rich quickly by building an ugly one?
+The audacious proposal here is this: can we let a lot of people build wealth over the long term by building a beautiful neighborhood, rather than letting a few people get rich quickly by building an ugly one?
 
-I feel like it shouldn't be controversial that we should make it possible for more people to own equity and have a say in the places that matter most to them. Right now, too many people are completely shut out from owning equity in anything. I'd like us to create a path for more people in our community to invest in – and benefit from – the growth of our region.
+We should make it possible for more people to own equity and have a say in the places that matter most to them. Right now, too many people are completely shut out from owning equity in anything. I'd like us to create a path for more people in our community to invest in – and benefit from – the growth of our region.
 
 ### Are there any other examples of this?
 
