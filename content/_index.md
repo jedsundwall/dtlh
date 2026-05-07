@@ -109,7 +109,7 @@ Completing this transaction as described here is already hard enough. Let's see 
 
 The audacious proposal here is this: can we let a lot of people grow wealth over generations by building a beautiful neighborhood, rather than letting a few get rich quickly by building an ugly one?
 
-We should make it possible for more people to own equity and have a say in the places that matter most to them. Right now, too many people are completely shut out from owning equity in anything. I'd like us to create a path for more people in our community to invest in – and benefit from – the growth of our region.
+We should make it possible for more people to own equity and have a say in the places where they plan to raise families and grow old. Right now, too many people are completely shut out from owning equity in anything. I'd like us to create a path for more people in our community to invest in – and benefit from – the growth of our region.
 
 ### Are there any other examples of this?
 
