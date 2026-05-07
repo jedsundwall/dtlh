@@ -5,7 +5,7 @@ milestone_pledged: "$132,000"
 milestone_tagline: "Amazing neighbors make neighborhood amazinger."
 ---
 
-The two assembled parcels at the southeast corner of NW 80th St and 24th Ave NW are [listed for $8.8M as a redevelopment site](https://www.zillow.com/homedetails/2363-NW-80TH-Street-Seattle-WA-98117/461263292_zpid/). Whatever gets built there will reshape that corner of our neighborhood for the next several decades.
+The two assembled parcels at the southeast corner of NW 80th St and 24th Ave NW are [listed for $8.8M as a redevelopment site](https://www.zillow.com/homedetails/2363-NW-80TH-Street-Seattle-WA-98117/461263292_zpid/). Whatever gets built there will reshape our neighborhood for the next several decades.
 
 **Do Loyal Heights residents want to own and govern that redevelopment, or do we want to watch it happen to us?**
 
