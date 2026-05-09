@@ -6,5 +6,12 @@
     "env": {
       "HUGO_VERSION": "0.143.1"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/signup",
+      "destination": "https://forms.gle/4bUXkoBovbaLoUdA8",
+      "permanent": false
+    }
+  ]
 }
