@@ -13,6 +13,16 @@ The answer is clear: within five days of launching this website, 13 of our neigh
 
 [Sign up here](/signup) to stay updated or indicate your interest.
 
+## Get Involved
+
+The fastest way to help is to **[fill out the interest form](/signup)** so we can gauge support and keep you posted.
+
+Want to spread the word? Print a yard sign or a flyer:
+
+- [Yard sign (PDF)](/pdfs/dtlh-yardsign.pdf)
+- [Flyer — pink (PDF)](/pdfs/dtlh-flyer-pink.pdf)
+- [Flyer — black & white (PDF)](/pdfs/dtlh-flyer-bw.pdf)
+
 ## The Idea
 
 Form a community-owned real estate entity to acquire the parcels, design and build something the neighborhood actually wants, and hold the resulting property as a long-term, neighborhood-owned asset. Equity holders share in appreciation and rental income. Community governance will allow equity holders to influence what gets built.
