@@ -1,7 +1,7 @@
 ---
 title: "A concept for community-owned redevelopment in Loyal Heights"
-milestone_neighbors: 15
-milestone_pledged: "$1.4M"
+milestone_neighbors: 20
+milestone_pledged: "$1.47M"
 milestone_tagline: "Amazing neighbors make neighborhood amazinger."
 ---
 
@@ -158,3 +158,17 @@ No one actually ever asks me this, but here are some pieces that have shaped my 
 - [*Governing the Commons*](https://archive.org/details/governingcommons0000ostr/page/n5/mode/2up) by Elinor Ostrom
 - [*A Pattern Language: Towns, Buildings, Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language) by Christopher Alexander, Sara Ishikawa, and Murray Silverstein
 - [*The fewer the merrier*](https://www.worksinprogress.news/p/the-fewer-the-merrier) by Samuel Hughes
+
+### How are you counting pledges?
+
+Pledges shown on this page are non-binding indications of interest, gathered from conversations, emails, and the [signup form](/signup). They're counted as follows:
+
+- Specific dollar amounts are counted at face value.
+- Monthly pledges are counted at one year's worth (e.g., "$50/month" counts as $600).
+- Ranges are counted at the low end.
+- Tier indications without a specific dollar amount are counted at the low end of the selected tier (e.g., "$10K–$50K" counts as $10,000).
+- Duplicate submissions are removed by manual review before counting.
+- The "neighbors" count is the number of individuals who have offered a pledge.
+- The total represents the pledges I have at the time the page was last updated.
+
+None of this is binding, and final figures will only matter if and when this becomes a real offering with formal subscription documents.
