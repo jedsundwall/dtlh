@@ -1,0 +1,42 @@
+name: Daily rebuild
+
+# Pings a Vercel deploy hook once a day so the "days since launch"
+# counter on the homepage stays accurate even when there are no
+# pushes. The site is otherwise rebuilt automatically on every push.
+#
+# Setup (one-time):
+#   1. In Vercel: Project Settings → Git → Deploy Hooks → Create Hook.
+#      Name it "Daily rebuild", target the production branch (main).
+#      Copy the resulting URL.
+#   2. In GitHub: Settings → Secrets and variables → Actions →
+#      New repository secret. Name: VERCEL_DEPLOY_HOOK_URL.
+#      Value: the URL from step 1.
+#
+# Notes:
+#   - GitHub Actions scheduled workflows can be delayed by a few
+#     minutes during high load; don't expect to-the-minute precision.
+#   - Scheduled workflows pause if the repo sees no activity for 60
+#     days. With ongoing pushes this won't be a problem.
+#   - To change the time, edit the cron expression (it is in UTC).
+
+on:
+  schedule:
+    # 14:00 UTC ≈ 07:00 Pacific (06:00 in PST winter, 07:00 in PDT summer).
+    - cron: '0 14 * * *'
+  workflow_dispatch:  # lets you trigger manually from the Actions tab
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deploy hook
+        env:
+          DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$DEPLOY_HOOK_URL" ]; then
+            echo "VERCEL_DEPLOY_HOOK_URL secret is not set." >&2
+            echo "See the setup instructions at the top of this workflow file." >&2
+            exit 1
+          fi
+          curl --fail --silent --show-error -X POST "$DEPLOY_HOOK_URL"
+          echo "Deploy hook pinged successfully."

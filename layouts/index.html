@@ -199,6 +199,22 @@
       margin: 8px 0 0;
     }
 
+    /* ── Heading anchors ── */
+    article h2, article h3 { position: relative; }
+    .heading-anchor {
+      margin-left: 0.35em;
+      opacity: 0;
+      color: var(--muted);
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 0.7em;
+      vertical-align: middle;
+      transition: opacity 0.15s ease;
+    }
+    article h2:hover .heading-anchor,
+    article h3:hover .heading-anchor { opacity: 1; }
+    .heading-anchor:focus { opacity: 1; outline: 2px solid var(--pink-deep); outline-offset: 2px; }
+
     /* ── Footer ── */
     .site-footer {
       border-top: 1px solid var(--ink);
