@@ -95,12 +95,6 @@ If the response shows there are five anchors and a critical mass of neighbors wh
 - Write to **Jed Sundwall** at jed@dtlh.org
 - Open an [issue on the DTLH GitHub](https://github.com/jedsundwall/dtlh/issues)
 
-## Updates
-
-- Downtown Loyal Heights has been [featured on My Ballard](https://www.myballard.com/2026/05/05/loyal-heights-resident-proposes-community-owned-development/).
-- A surprising number of neighbors who I don't know have emailed me and indicated willingness to invest. Within a day of launching this site, I'm now tracking over $100,000 in pledges (see disclaimer below) and many gracious offers to help, over half from people who I don't know. Loyal Heights is amazing.
-- If you want to be updated about this, email me! I'll add you to my mailing list. I'll find a better way to let people subscribe to updates (probably a Substack) if we build any momentum. 
-
 ## Disclaimer
 
 *I know nothing about commercial real estate ownership or development. This is a concept document, not an offer to sell or a solicitation of an offer to buy any security. Any future investment will be subject to applicable securities laws and made only through formal offering documents to qualified investors.*
@@ -108,6 +102,12 @@ If the response shows there are five anchors and a critical mass of neighbors wh
 *No money should change hands for this at all. I'm absolutely not accepting money from anyone. Any pledges I'm tracking are not binding in any way whatsoever. Yes, I got the dtlh.org domain, but Downtown Loyal Heights is not a legal entity, let alone a 501(c)(3) organization. I'm not a lawyer, but I think if I TYPE IN ALL CAPS HERE I CAN GET MY POINT ACROSS. THIS IS NOT A THING YET.*
 
 ## FAQ
+
+### Who made this site?
+
+Right now, it's just me. My name is Jed Sundwall and I've lived at 80th and 21st since 2014. My wife and I have three kids. Next year, one will be at LHE, one at Whitman, and one at Ballard High. As far as I know, I'm the only Jed Sundwall in the world, so feel free to Google me. I maintain a professional bio at [jed.co/bio](https://jed.co/bio/) and you can find me [on LinkedIn](https://www.linkedin.com/in/jedsundwall/). 
+
+Before long, this will be run by a bunch of Loyal Heights neighbors.
 
 ### What's your goal with this?
 
