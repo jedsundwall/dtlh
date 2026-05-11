@@ -152,7 +152,7 @@ The [official city designation](https://en.wikipedia.org/wiki/Loyal_Heights,_Sea
 
 I also don't think we should be too choosy about who invests. We should encourage people far and wide to put capital into our neighborhood, but control and oversight of development needs to sit with residents who are committed to its long-term benefit. That can probably encompass most of greater Ballard, though I expect the majority of them will likely live closer to 80th and 24th.
 
-This will make a fun (not not interminable!) board discussion.
+This will make a fun board discussion.
 
 ### What about parking?
 
