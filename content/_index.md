@@ -1,7 +1,7 @@
 ---
 title: "A concept for community-owned redevelopment in Loyal Heights"
-milestone_neighbors: 22
-milestone_pledged: "$1.52M"
+milestone_neighbors: 27
+milestone_pledged: "$1.56M"
 milestone_tagline: "Amazing neighbors make neighborhood amazinger."
 ---
 
@@ -9,7 +9,7 @@ The two assembled parcels at the southeast corner of NW 80th St and 24th Ave NW 
 
 **Do Loyal Heights residents want to own and govern that redevelopment, or do we want to watch it happen to us?**
 
-The answer is clear: within five days of launching this website, 13 of our neighbors have pledged $1,332,000 to shape the future of Loyal Heights! 🙌 
+The answer is clear: in just {{< days-since-launch >}} days since launching this site, {{< milestone neighbors >}} of our neighbors have pledged over {{< milestone pledged >}} to shape the future of Loyal Heights. 🙌 
 
 [Sign up here](/signup) to stay updated or indicate your interest.
 
@@ -92,7 +92,7 @@ If the response shows there are five anchors and a critical mass of neighbors wh
 
 ## To Express Interest or Learn More
 
-- Write to **Jed Sundwall** at jedsundwall@gmail.com
+- Write to **Jed Sundwall** at jed@dtlh.org
 - Open an [issue on the DTLH GitHub](https://github.com/jedsundwall/dtlh/issues)
 
 ## Updates
@@ -143,6 +143,16 @@ Residents forming an entity that collectively owns and governs commercial real e
 - The East Portland [Community Investment Trust](https://investcit.org) linked above is structurally similar to what we're proposing: a corporation owned by community investors who elect a board. What's distinctive is the small-dollar accessibility: eligible residents make monthly auto-debit payments of $10–$100 that buy shares in the corporation each month, earning dividends and appreciating with the property. That monthly mechanism is the part most worth studying to make this project accessible to more people.
 
 There are almost certainly other great examples. Email me if you think we should mention them here!
+
+### What even is Loyal Heights?
+
+I do not have an answer to this question! In any event, I'm not the one to answer it because our forthcoming board will have to.
+
+The [official city designation](https://en.wikipedia.org/wiki/Loyal_Heights,_Seattle) is too narrow. At a minimum, I'd include everything west of 15th between 65th and 85th. We can't pull this off without our Sunset Hill neighbors.
+
+I also don't think we should be too choosy about who invests. We should encourage people far and wide to put capital into our neighborhood, but control and oversight of development needs to sit with residents who are committed to its long-term benefit. That can probably encompass most of greater Ballard, though I expect the majority of them will likely live closer to 80th and 24th.
+
+This will make a fun (not not interminable!) board discussion.
 
 ### What about parking?
 

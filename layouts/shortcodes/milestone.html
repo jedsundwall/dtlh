@@ -1,0 +1,6 @@
+{{- /*
+  Pulls a milestone_* value from the current page's frontmatter.
+  Usage: {{< milestone neighbors >}} → 27
+         {{< milestone pledged   >}} → $1.56M
+*/ -}}
+{{- index .Page.Params (printf "milestone_%s" (.Get 0)) -}}

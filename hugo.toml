@@ -5,6 +5,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "Loyal Heights should own Loyal Heights. A concept for community-owned redevelopment in Loyal Heights."
+  launch_date = "2026-05-04"
 
 [markup.goldmark.renderer]
   unsafe = true

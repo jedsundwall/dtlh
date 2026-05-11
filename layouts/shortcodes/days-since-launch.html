@@ -1,0 +1,10 @@
+{{- /*
+  Outputs the integer number of days between Site.Params.launch_date and
+  the current build time. Computed at build time, so the number only
+  changes when the site rebuilds.
+
+  Usage: {{< days-since-launch >}} → 6
+*/ -}}
+{{- $launch := time.AsTime .Site.Params.launch_date -}}
+{{- $days := math.Floor (div (now.Sub $launch).Hours 24) -}}
+{{- $days -}}
