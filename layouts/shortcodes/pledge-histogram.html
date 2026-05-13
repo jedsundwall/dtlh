@@ -1,0 +1,240 @@
+{{- /*
+  pledge-histogram: render an SVG histogram of donation amounts
+  from a CSV in assets/. Build-time only — no JS at runtime.
+
+  Params:
+    src           Resource path under assets/. Default "data/pledges.csv".
+    column        Header name of the amount column. Default "amount".
+    excludeZeros  Skip rows where amount == 0. Default "true".
+    height        SVG viewBox height in px. Default 360.
+
+  Usage:
+    {{< pledge-histogram >}}
+    {{< pledge-histogram src="data/pledges.csv" excludeZeros="false" >}}
+*/ -}}
+
+{{- $src       := .Get "src"          | default "data/pledges.csv" -}}
+{{- $col       := .Get "column"       | default "Pledge" -}}
+{{- $skipZ     := eq (.Get "excludeZeros" | default "true") "true" -}}
+{{- $vbH       := int (.Get "height" | default 360) -}}
+
+{{- $csv := resources.Get $src -}}
+{{- if not $csv -}}
+  {{- errorf "pledge-histogram: cannot find CSV at assets/%s" $src -}}
+{{- end -}}
+{{- $rows := $csv | transform.Unmarshal (dict "delimiter" ",") -}}
+
+{{- /* Locate the amount column by header name */ -}}
+{{- $header := index $rows 0 -}}
+{{- $colIdx := -1 -}}
+{{- range $i, $h := $header -}}
+  {{- if eq (lower (trim $h " ")) (lower $col) -}}
+    {{- $colIdx = $i -}}
+  {{- end -}}
+{{- end -}}
+{{- if lt $colIdx 0 -}}
+  {{- errorf "pledge-histogram: column %q not found in %s (headers: %v)" $col $src $header -}}
+{{- end -}}
+
+{{- /* Parse amounts, strip $ and , so the CSV is forgiving */ -}}
+{{- $amounts := slice -}}
+{{- range $i, $r := $rows -}}
+  {{- if gt $i 0 -}}
+    {{- $cell := trim (index $r $colIdx) " " -}}
+    {{- if ne $cell "" -}}
+      {{- $clean := replace (replace $cell "$" "") "," "" -}}
+      {{- $n := float $clean -}}
+      {{- if or (not $skipZ) (gt $n 0.0) -}}
+        {{- $amounts = $amounts | append $n -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $count := len $amounts -}}
+
+{{- /* Summary stats */ -}}
+{{- $total := 0.0 -}}
+{{- range $amounts -}}{{- $total = add $total . -}}{{- end -}}
+{{- $sorted := sort $amounts -}}
+{{- $mean := 0.0 -}}
+{{- if gt $count 0 -}}{{- $mean = div $total $count -}}{{- end -}}
+{{- $median := 0.0 -}}
+{{- if gt $count 0 -}}
+  {{- $mid := int (div $count 2) -}}
+  {{- if eq (mod $count 2) 0 -}}
+    {{- $median = div (add (index $sorted (sub $mid 1)) (index $sorted $mid)) 2.0 -}}
+  {{- else -}}
+    {{- $median = index $sorted $mid -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Bucket the amounts. Edges are strict upper bounds; last bucket is open. */ -}}
+{{- $bucketLabels := slice "&lt;$1K" "$1K&#x2013;5K" "$5K&#x2013;10K" "$10K&#x2013;25K" "$25K&#x2013;50K" "$50K&#x2013;100K" "$100K&#x2013;500K" "$500K+" -}}
+{{- $bucketEdges  := slice 1000.0 5000.0 10000.0 25000.0 50000.0 100000.0 500000.0 -}}
+{{- $nBuckets := len $bucketLabels -}}
+{{- $buckets := dict -}}
+{{- range seq 0 (sub $nBuckets 1) -}}
+  {{- $buckets = merge $buckets (dict (printf "%d" .) 0) -}}
+{{- end -}}
+{{- range $amounts -}}
+  {{- $a := . -}}
+  {{- /* Default to last (open) bucket; first edge the amount falls below wins. */ -}}
+  {{- $idx := sub $nBuckets 1 -}}
+  {{- $found := false -}}
+  {{- range $j, $edge := $bucketEdges -}}
+    {{- if and (not $found) (lt $a $edge) -}}
+      {{- $idx = $j -}}{{- $found = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $key := printf "%d" $idx -}}
+  {{- $cur := index $buckets $key -}}
+  {{- $buckets = merge $buckets (dict $key (add $cur 1)) -}}
+{{- end -}}
+
+{{- /* Max bucket for y-scale */ -}}
+{{- $maxCount := 0 -}}
+{{- range $k, $v := $buckets -}}
+  {{- if gt $v $maxCount -}}{{- $maxCount = $v -}}{{- end -}}
+{{- end -}}
+
+{{- /* Currency formatter: $1.87M / $42.5K / $120 */ -}}
+{{- $fmtTotal := "$0" -}}
+{{- if ge $total 1000000.0 -}}{{- $fmtTotal = printf "$%.2fM" (div $total 1000000.0) -}}
+{{- else if ge $total 1000.0 -}}{{- $fmtTotal = printf "$%.0fK" (div $total 1000.0) -}}
+{{- else -}}{{- $fmtTotal = printf "$%.0f" $total -}}{{- end -}}
+
+{{- $fmtMean := "$0" -}}
+{{- if ge $mean 1000000.0 -}}{{- $fmtMean = printf "$%.2fM" (div $mean 1000000.0) -}}
+{{- else if ge $mean 1000.0 -}}{{- $fmtMean = printf "$%.1fK" (div $mean 1000.0) -}}
+{{- else -}}{{- $fmtMean = printf "$%.0f" $mean -}}{{- end -}}
+
+{{- $fmtMedian := "$0" -}}
+{{- if ge $median 1000000.0 -}}{{- $fmtMedian = printf "$%.2fM" (div $median 1000000.0) -}}
+{{- else if ge $median 1000.0 -}}{{- $fmtMedian = printf "$%.1fK" (div $median 1000.0) -}}
+{{- else -}}{{- $fmtMedian = printf "$%.0f" $median -}}{{- end -}}
+
+{{- /* Geometry. viewBox is fixed, container scales. */ -}}
+{{- $vbW    := 700 -}}
+{{- $padL   := 24 -}}
+{{- $padR   := 24 -}}
+{{- $padT   := 28 -}}
+{{- $padB   := 56 -}}
+{{- $chartW := sub $vbW (add $padL $padR) -}}
+{{- $chartH := sub $vbH (add $padT $padB) -}}
+{{- $slotW  := div $chartW $nBuckets -}}
+{{- $barW   := int (mul $slotW 0.74) -}}
+{{- $barGap := div (sub (int $slotW) $barW) 2 -}}
+
+<figure class="pledge-histogram" role="group" aria-labelledby="pledge-histogram-title">
+  <figcaption id="pledge-histogram-title" class="pledge-histogram__caption">
+    Pledges to date, by amount{{ if $skipZ }} (excluding zero-pledge sign-ups){{ end }}.
+  </figcaption>
+
+  <dl class="pledge-histogram__stats">
+    <div><dt>Pledges</dt><dd>{{ $count }}</dd></div>
+    <div><dt>Total raised</dt><dd>{{ $fmtTotal }}</dd></div>
+    <div><dt>Mean</dt><dd>{{ $fmtMean }}</dd></div>
+    <div><dt>Median</dt><dd>{{ $fmtMedian }}</dd></div>
+  </dl>
+
+  <svg class="pledge-histogram__chart"
+       viewBox="0 0 {{ $vbW }} {{ $vbH }}"
+       preserveAspectRatio="xMidYMid meet"
+       role="img"
+       aria-label="Histogram of {{ $count }} pledges across {{ $nBuckets }} amount buckets. Largest bucket holds {{ $maxCount }} pledges.">
+
+    {{- /* Baseline */ -}}
+    <line x1="{{ $padL }}" x2="{{ sub $vbW $padR }}"
+          y1="{{ add $padT $chartH }}" y2="{{ add $padT $chartH }}"
+          class="pledge-histogram__axis" />
+
+    {{- range $i, $label := $bucketLabels -}}
+      {{- $key := printf "%d" $i -}}
+      {{- $c := index $buckets $key -}}
+      {{- $h := 0 -}}
+      {{- if gt $maxCount 0 -}}
+        {{- $h = int (mul (div (float $c) (float $maxCount)) (float $chartH)) -}}
+      {{- end -}}
+      {{- $x := add (add $padL (mul $i $slotW)) $barGap -}}
+      {{- $y := sub (add $padT $chartH) $h -}}
+      {{- $labelX := add $x (div $barW 2) -}}
+
+      {{- if gt $c 0 }}
+      <rect class="pledge-histogram__bar"
+            x="{{ $x }}" y="{{ $y }}"
+            width="{{ $barW }}" height="{{ $h }}"
+            rx="2" ry="2" />
+      <text class="pledge-histogram__count"
+            x="{{ $labelX }}" y="{{ sub $y 6 }}"
+            text-anchor="middle">{{ $c }}</text>
+      {{- end }}
+
+      <text class="pledge-histogram__tick"
+            x="{{ $labelX }}" y="{{ add (add $padT $chartH) 18 }}"
+            text-anchor="middle">{{ $label | safeHTML }}</text>
+    {{- end }}
+  </svg>
+</figure>
+
+<style>
+  .pledge-histogram {
+    margin: 28px 0 8px;
+    padding: 0;
+  }
+  .pledge-histogram__caption {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--muted);
+    margin: 0 0 14px;
+  }
+  .pledge-histogram__stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 0 18px;
+    padding: 0;
+  }
+  .pledge-histogram__stats > div {
+    border-top: 1px solid var(--rule);
+    padding-top: 10px;
+  }
+  .pledge-histogram__stats dt {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 4px;
+  }
+  .pledge-histogram__stats dd {
+    font-family: "Germania One", "Source Serif 4", Georgia, serif;
+    font-size: clamp(22px, 3.4vw, 30px);
+    color: var(--ink);
+    margin: 0;
+    line-height: 1;
+  }
+  .pledge-histogram__chart {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+  .pledge-histogram__axis { stroke: var(--rule); stroke-width: 1; }
+  .pledge-histogram__bar  { fill: var(--pink-deep); }
+  .pledge-histogram__count {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 11px;
+    fill: var(--ink);
+  }
+  .pledge-histogram__tick {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    fill: var(--muted);
+  }
+  @media (max-width: 480px) {
+    .pledge-histogram__stats { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
