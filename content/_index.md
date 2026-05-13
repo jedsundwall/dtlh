@@ -11,6 +11,8 @@ The two assembled parcels at the southeast corner of NW 80th St and 24th Ave NW 
 
 The answer is clear: in just {{< days-since-launch >}} days since launching this site, {{< milestone neighbors >}} of our neighbors have pledged over {{< milestone pledged >}} to shape the future of Loyal Heights. 🙌 
 
+{{< pledge-histogram >}}
+
 [Sign up here](/signup) to stay updated or indicate your interest.
 
 ## Get Involved
@@ -194,4 +196,3 @@ Pledges shown on this page are non-binding indications of interest, gathered fro
 
 None of this is binding, and final figures will only matter if and when this becomes a real offering with formal subscription documents.
 
-{{< pledge-histogram >}}
