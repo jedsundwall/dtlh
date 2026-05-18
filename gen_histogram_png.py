@@ -5,7 +5,8 @@ Run from the repo root:  python3 gen_histogram_png.py
 Output:  histogram-linkedin.png
 """
 
-import csv, base64, subprocess, sys, pathlib
+import base64, subprocess, sys, pathlib
+import compute_pledges
 
 # ── Fonts ────────────────────────────────────────────────────────────────────
 ROOT = pathlib.Path(__file__).parent
@@ -18,28 +19,9 @@ germania_b64   = b64font(FONT_DIR / "germania-one-regular.woff2")
 ss4_roman_b64  = b64font(FONT_DIR / "source-serif-4-variable-roman.woff2")
 
 # ── Parse CSV ─────────────────────────────────────────────────────────────────
-amounts = []
-with open(ROOT / "assets" / "data" / "pledges.csv") as f:
-    reader = csv.reader(f)
-    next(reader)  # skip header
-    for row in reader:
-        if not row:
-            continue
-        cell = row[0].strip().replace("$", "").replace(",", "").strip('"')
-        if cell:
-            try:
-                n = float(cell)
-                if n > 0:
-                    amounts.append(n)
-            except ValueError:
-                pass
-
-count = len(amounts)
-total = sum(amounts)
-mean  = total / count if count else 0
-sa    = sorted(amounts)
-mid   = count // 2
-median = (sa[mid-1] + sa[mid]) / 2 if count % 2 == 0 else sa[mid]
+amounts = compute_pledges.load()
+s       = compute_pledges.stats(amounts)
+count, total, mean, median = s["count"], s["total"], s["mean"], s["median"]
 
 # ── Bucket ────────────────────────────────────────────────────────────────────
 BUCKET_LABELS = ["&lt;$1K","$1K&#x2013;5K","$5K&#x2013;10K","$10K&#x2013;25K",
@@ -51,10 +33,7 @@ for a in amounts:
     buckets[idx] += 1
 max_count = max(buckets) if buckets else 1
 
-def fmt(v):
-    if v >= 1_000_000: return f"${v/1_000_000:.2f}M"
-    if v >= 1_000:     return f"${v/1_000:.0f}K"
-    return f"${v:.0f}"
+fmt = compute_pledges.fmt
 
 # ── Layout ────────────────────────────────────────────────────────────────────
 W, H     = 1200, 720

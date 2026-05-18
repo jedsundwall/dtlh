@@ -1,7 +1,5 @@
 ---
 title: "A concept for community-owned redevelopment in Loyal Heights"
-milestone_neighbors: 57
-milestone_pledged: "$2.1M"
 milestone_tagline: "Amazing neighbors make neighborhoods amazinger."
 ---
 

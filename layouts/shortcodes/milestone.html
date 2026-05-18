@@ -1,6 +1,6 @@
 {{- /*
-  Pulls a milestone_* value from the current page's frontmatter.
-  Usage: {{< milestone neighbors >}} → 27
-         {{< milestone pledged   >}} → $1.56M
+  Pulls a value from data/pledges_stats.json (generated from the CSV).
+  Usage: {{< milestone neighbors >}} → 57
+         {{< milestone pledged   >}} → $2.1M
 */ -}}
-{{- index .Page.Params (printf "milestone_%s" (.Get 0)) -}}
+{{- index site.Data.pledges_stats (.Get 0) -}}

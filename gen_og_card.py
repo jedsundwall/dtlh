@@ -17,18 +17,12 @@ germania_b64  = b64font(FONT_DIR / "germania-one-regular.woff2")
 ss4_roman_b64 = b64font(FONT_DIR / "source-serif-4-variable-roman.woff2")
 ss4_italic_b64 = b64font(FONT_DIR / "source-serif-4-variable-italic.woff2")
 
-# ── Read milestone values from Hugo frontmatter ───────────────────────────────
-import re
+# ── Read milestone values from pledges CSV ────────────────────────────────────
+import compute_pledges
 
-frontmatter_text = (ROOT / "content" / "_index.md").read_text(encoding="utf-8")
-neighbors_match  = re.search(r"^milestone_neighbors:\s*(\d+)", frontmatter_text, re.MULTILINE)
-pledged_match    = re.search(r'^milestone_pledged:\s*"([^"]+)"', frontmatter_text, re.MULTILINE)
-
-if not neighbors_match or not pledged_match:
-    sys.exit("Could not parse milestone values from content/_index.md frontmatter")
-
-count_str = neighbors_match.group(1)
-total_str = pledged_match.group(1)
+s = compute_pledges.stats(compute_pledges.load())
+count_str = str(s["count"])
+total_str = compute_pledges.fmt(s["total"])
 
 # ── Layout constants ──────────────────────────────────────────────────────────
 W, H   = 1200, 630
