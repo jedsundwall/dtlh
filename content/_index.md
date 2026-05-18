@@ -1,8 +1,8 @@
 ---
 title: "A concept for community-owned redevelopment in Loyal Heights"
-milestone_neighbors: 54
-milestone_pledged: "$2M"
-milestone_tagline: "Amazing neighbors make neighborhood amazinger."
+milestone_neighbors: 57
+milestone_pledged: "$2.1M"
+milestone_tagline: "Amazing neighbors make neighborhoods amazinger."
 ---
 
 The two assembled parcels at the southeast corner of NW 80th St and 24th Ave NW are [listed for $8.8M as a redevelopment site](https://www.zillow.com/homedetails/2363-NW-80TH-Street-Seattle-WA-98117/461263292_zpid/). Whatever gets built there will reshape our neighborhood for the next several decades.

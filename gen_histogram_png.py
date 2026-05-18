@@ -180,8 +180,8 @@ svg = f"""<?xml version="1.0" encoding="UTF-8"?>
 </svg>"""
 
 # ── Write SVG & render PNG ─────────────────────────────────────────────────────
-svg_path = ROOT / "histogram-linkedin.svg"
-png_path = ROOT / "histogram-linkedin.png"
+svg_path = ROOT / "static" / "histogram-linkedin.svg"
+png_path = ROOT / "static" / "histogram-linkedin.png"
 
 svg_path.write_text(svg, encoding="utf-8")
 print(f"SVG written → {svg_path}")
