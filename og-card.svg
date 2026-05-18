@@ -44,7 +44,7 @@
   <!-- RIGHT upper: neighbor count -->
   <text font-family="'Germania One',serif" font-size="130"
         fill="#B53050" x="873" y="225.0"
-        text-anchor="middle">58</text>
+        text-anchor="middle">60</text>
   <text font-family="'Source Serif 4',Georgia,serif"
         font-style="italic" font-weight="600" font-size="26"
         fill="#3A2E28" x="873" y="263.0"
@@ -53,7 +53,7 @@
   <!-- RIGHT lower: total pledged -->
   <text font-family="'Germania One',serif" font-size="130"
         fill="#B53050" x="873" y="449.0"
-        text-anchor="middle">$2.06M</text>
+        text-anchor="middle">$2.12M</text>
   <text font-family="'Source Serif 4',Georgia,serif"
         font-style="italic" font-weight="600" font-size="26"
         fill="#3A2E28" x="873" y="487.0"
