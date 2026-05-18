@@ -7,7 +7,7 @@ The two assembled parcels at the southeast corner of NW 80th St and 24th Ave NW 
 
 **Do Loyal Heights residents want to own and govern that redevelopment, or do we want to watch it happen to us?**
 
-The answer is clear: in just {{< days-since-launch >}} days since launching this site, {{< milestone neighbors >}} of our neighbors have pledged over {{< milestone pledged >}} to shape the future of Loyal Heights. 🙌 
+The answer is clear: in just {{< days-since-launch >}} days since launching this site, {{< milestone neighbors >}} of our neighbors have pledged {{< milestone pledged >}} to shape the future of Loyal Heights. 🙌 
 
 {{< pledge-histogram >}}
 

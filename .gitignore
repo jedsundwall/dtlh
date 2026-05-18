@@ -3,3 +3,4 @@ public/
 .claude/
 .vercel
 private/
+__pycache__/
