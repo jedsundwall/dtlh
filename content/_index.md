@@ -19,6 +19,15 @@ The fastest way to help is to **[fill out the interest form](/signup)** so we ca
 
 Want to spread the word? Print a yard sign or a flyer:
 
+Great flyers designed by [Lindsey DeVries](https://lindseydevries.com):
+
+- [Did You Know? Flyer — color (PDF)](/pdfs/dtlh-flyer-did-you-know.pdf)
+- [Did You Know? Flyer — black & white (PDF)](/pdfs/dtlh-flyer-did-you-know-bw.pdf)
+- [Imagine Flyer — color (PDF)](/pdfs/dtlh-flyer-imagine.pdf)
+- [Imagine Flyer — black & white (PDF)](/pdfs/dtlh-flyer-imagine-bw.pdf)
+
+Other:
+
 - [Yard sign (PDF)](/pdfs/dtlh-yardsign.pdf)
 - [Flyer — pink (PDF)](/pdfs/dtlh-flyer-pink.pdf)
 - [Flyer — black & white (PDF)](/pdfs/dtlh-flyer-bw.pdf)
