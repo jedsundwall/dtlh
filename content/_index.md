@@ -17,20 +17,20 @@ The answer is clear: in just {{< days-since-launch >}} days since launching this
 
 The fastest way to help is to **[fill out the interest form](/signup)** so we can gauge support and keep you posted.
 
-Want to spread the word? Print a yard sign or a flyer:
+Want to spread the word? Put up a flyer:
 
 Great flyers designed by [Lindsey DeVries](https://lindseydevries.com):
 
-- [Did You Know? Flyer — color (PDF)](/pdfs/dtlh-flyer-did-you-know.pdf)
-- [Did You Know? Flyer — black & white (PDF)](/pdfs/dtlh-flyer-did-you-know-bw.pdf)
-- [Imagine Flyer — color (PDF)](/pdfs/dtlh-flyer-imagine.pdf)
-- [Imagine Flyer — black & white (PDF)](/pdfs/dtlh-flyer-imagine-bw.pdf)
+- Did You Know? [color](/pdfs/dtlh-flyer-did-you-know.pdf) or [black & white](/pdfs/dtlh-flyer-did-you-know-bw.pdf)
+- Imagine [color](/pdfs/dtlh-flyer-imagine.pdf) or [black & white](/pdfs/dtlh-flyer-imagine-bw.pdf)
+- Loyal Heights Should Own Loyal Heights [color](/pdfs/dtlh-flyer-pink.pdf) or [black & white](/pdfs/dtlh-flyer-bw.pdf)
 
-Other:
+Write to jed@dtlh.org if you want a [yard sign](/pdfs/dtlh-yardsign.pdf).
 
-- [Yard sign (PDF)](/pdfs/dtlh-yardsign.pdf)
-- [Flyer — pink (PDF)](/pdfs/dtlh-flyer-pink.pdf)
-- [Flyer — black & white (PDF)](/pdfs/dtlh-flyer-bw.pdf)
+## In the News
+
+- **City Cast Seattle** (June 4, 2026): [Buying a Building for the Community](https://seattle.citycast.fm/podcasts/will-another-transit-tax-measure-pass-plus-buying-a-building-for-the-community)
+- **My Ballard** (May 11, 2026): [Loyal Heights development effort tops $1.5 million in non-binding pledges](https://www.myballard.com/2026/05/11/loyal-heights-development-effort-tops-1-5-million-in-non-binding-pledges/)
 
 ## The Idea
 
