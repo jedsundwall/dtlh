@@ -17,6 +17,8 @@ The answer is clear: in just {{< days-since-launch >}} days since launching this
 
 The fastest way to help is to **[fill out the interest form](/signup)** so we can gauge support and keep you posted.
 
+Everyone has ideas for this corner. **[Tell us about a place you love](/places)** — anywhere — and what makes it work, so we can borrow the best ideas (photos welcome!).
+
 Want to spread the word? Put up a flyer:
 
 Great flyers designed by [Lindsey DeVries](https://lindseydevries.com):

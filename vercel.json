@@ -12,6 +12,11 @@
       "source": "/signup",
       "destination": "https://forms.gle/4bUXkoBovbaLoUdA8",
       "permanent": false
+    },
+    {
+      "source": "/places",
+      "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdQlbz_Bgot8ACOe0uiLfI4_vaCQIanprHBnEBWZCG76WQlMg/viewform",
+      "permanent": false
     }
   ]
 }
