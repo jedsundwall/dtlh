@@ -98,3 +98,4 @@ The full set we expect to have over time. Files marked with a checkmark exist; o
 ## Index of `drafts/`
 
 - [`site-update-language.md`](./drafts/site-update-language.md) — replacement copy for the *Where This Is* section once the Trust is filed
+- [`mission-and-governance-pivot.md`](./drafts/mission-and-governance-pivot.md) — broadened mission statement, self-perpetuating board, simplified single-LLC investment structure (July 2026 pivot)

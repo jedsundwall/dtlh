@@ -1,6 +1,13 @@
-public/
+/public/
 .hugo_build.lock
 .claude/
 .vercel
 private/
 __pycache__/
+
+# Slidev decks (slides/)
+node_modules/
+slides/**/dist/
+slides/**/*.pdf
+!slides/**/public/*.pdf
+slides/**/.slidev/

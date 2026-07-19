@@ -1,0 +1,173 @@
+/* Downtown Loyal Heights brand styles — shared by every deck via slidev-addon-dtlh.
+   Colors and type mirror layouts/index.html on dtlh.org:
+   cream #F1ECE2 page, ink #252321 text, deep pink #B53050 accents,
+   Germania One headings, Source Serif 4 body, system mono for eyebrows.
+   Fonts are bundled in ../fonts and resolved by Vite at build time. */
+
+@font-face {
+  font-family: 'Germania One';
+  src: url('../fonts/germania-one-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('../fonts/source-serif-4-variable-roman.woff2') format('woff2');
+  font-weight: 200 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('../fonts/source-serif-4-variable-italic.woff2') format('woff2');
+  font-weight: 200 900;
+  font-style: italic;
+}
+
+:root {
+  --dtlh-pink: #B53050;
+  --dtlh-cream: #F1ECE2;
+  --dtlh-ink: #252321;
+  --dtlh-muted: #5C4F46;
+  --dtlh-rule: rgba(42, 33, 27, 0.15);
+  --slidev-theme-primary: #B53050;
+  --slidev-theme-accent: #B53050;
+}
+
+.slidev-layout {
+  background-color: var(--dtlh-cream) !important;
+  color: var(--dtlh-ink) !important;
+  font-family: 'Source Serif 4', Georgia, serif !important;
+  font-weight: 400;
+  line-height: 1.55;
+}
+.slidev-layout h1, .slidev-layout h2, .slidev-layout h3 {
+  color: var(--dtlh-pink) !important;
+  font-family: 'Germania One', serif !important;
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: 0.005em;
+}
+.slidev-layout a {
+  color: var(--dtlh-pink) !important;
+  /* single solid underline — the default theme also draws a dashed border-bottom
+     under links, which stacked with this; suppress it so there's just one line */
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  border-bottom: none !important;
+}
+.slidev-layout strong {
+  color: var(--dtlh-ink);
+  font-weight: 700;
+}
+.slidev-layout em {
+  font-style: italic;
+}
+/* System mono, matching the site's eyebrow labels. Two ways to use it:
+   • Markdown inline code  `like this`  — also gets the subtle code background
+   • MDC inline span (font only, no box)  [like this]{.mono} */
+.slidev-layout code,
+.slidev-layout pre,
+.slidev-layout .mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+/* Soften inline `code`: a subtle low-opacity ink chip on the cream,
+   not the harsh opaque box the default theme ships. (pre>code stays plain.) */
+.slidev-layout :not(pre) > code {
+  background: rgba(42, 33, 27, 0.07) !important;
+  color: inherit;
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+.slidev-layout blockquote {
+  font-size: 1.15em;
+  line-height: 1.5;
+  font-style: italic;
+  border-left: 3px solid var(--dtlh-pink);
+  background: transparent;
+  padding: 0.5em 1em;
+  color: var(--dtlh-muted) !important;
+}
+.slidev-layout table {
+  font-size: 0.9em;
+  line-height: 1.35;
+}
+.slidev-layout table th,
+.slidev-layout table td {
+  padding: 0.6em 0.45em;
+}
+.slidev-layout table th {
+  color: var(--dtlh-pink);
+  font-family: 'Germania One', serif;
+  font-weight: 400;
+  border-color: rgba(42, 33, 27, 0.3);
+}
+.slidev-layout table td {
+  border-color: var(--dtlh-rule);
+}
+.slidev-layout ul {
+  list-style-type: '–  ';
+}
+.slidev-layout ul ul {
+  list-style-type: '–  ';
+}
+/* The default theme's cover layout (slide 1) fades paragraph text to 50% opacity;
+   keep the title-slide name/affiliation at full strength. */
+.slidev-layout.cover p { opacity: 1; }
+
+/* ---- Site furniture as reusable classes ---- */
+
+/* .eyebrow — the site's uppercase mono label above headings */
+.slidev-layout .eyebrow {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.62em;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--dtlh-muted);
+  margin-bottom: 0.9em;
+}
+/* .deck-rule — the short pink rule the site draws under eyebrow labels */
+.slidev-layout .deck-rule {
+  display: block;
+  border: 0;
+  width: 48px;
+  height: 2px;
+  background-color: var(--dtlh-pink);
+  margin: 0 0 1.1em;
+}
+/* .tagline — italic serif, muted, like the masthead tagline */
+.slidev-layout .tagline {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-style: italic;
+  color: var(--dtlh-muted);
+}
+/* .banner — the pink milestone banner from the site, for a full-bleed stat strip */
+.slidev-layout .banner {
+  background: var(--dtlh-pink);
+  color: var(--dtlh-cream);
+  padding: 0.7em 1.2em;
+  border-radius: 2px;
+}
+.slidev-layout .banner strong { color: #ffffff; }
+
+/* .dtlh-pink-slide — full pink slide (site milestone-banner colors, inverted).
+   Use via per-slide frontmatter:  class: dtlh-pink-slide  */
+.slidev-layout.dtlh-pink-slide {
+  background-color: var(--dtlh-pink) !important;
+  color: var(--dtlh-cream) !important;
+}
+.slidev-layout.dtlh-pink-slide h1,
+.slidev-layout.dtlh-pink-slide h2,
+.slidev-layout.dtlh-pink-slide h3,
+.slidev-layout.dtlh-pink-slide a,
+.slidev-layout.dtlh-pink-slide strong {
+  color: var(--dtlh-cream) !important;
+}
+.slidev-layout.dtlh-pink-slide .dtlh-wordmark { color: var(--dtlh-cream); }
+.slidev-layout.dtlh-pink-slide .tagline { color: rgba(241, 236, 226, 0.75); }
+
+/* ---- Workaround for the Slidev 51 goto-dialog regression (slidevjs/slidev#2593,
+   fixed upstream in #2597). Harmless on v52+; kept so older installs stay safe. ---- */
+#slidev-goto-dialog.-top-20 { overflow: hidden; height: 2.625rem; }
+#slidev-goto-dialog.-top-20 .autocomplete-list { display: none; }

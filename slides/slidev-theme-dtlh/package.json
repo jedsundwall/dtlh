@@ -1,0 +1,18 @@
+{
+  "name": "slidev-addon-dtlh",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Downtown Loyal Heights brand addon for Slidev: fonts, colors, wordmark component, footer. Shared by every deck so assets live in one place. Mirrors ops-re/brand/slidev-theme-radiant.",
+  "keywords": ["slidev-addon"],
+  "engines": {
+    "slidev": ">=52.0.0"
+  },
+  "scripts": {
+    "_comment": "Installing here provides the single shared Slidev toolchain. Run decks via ../slide.sh, not from this folder."
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.16.0",
+    "@slidev/theme-default": "^0.25.0",
+    "playwright-chromium": "^1.59.0"
+  }
+}
