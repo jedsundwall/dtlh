@@ -3,7 +3,7 @@ title: "A concept for community-owned redevelopment in Loyal Heights"
 milestone_tagline: "Amazing neighbors make neighborhoods amazinger."
 ---
 
-The two assembled parcels at the southeast corner of NW 80th St and 24th Ave NW are [listed for $8.8M as a redevelopment site](https://www.zillow.com/homedetails/2363-NW-80TH-Street-Seattle-WA-98117/461263292_zpid/). Whatever gets built there will reshape our neighborhood for the next several decades.
+The two assembled parcels at the southeast corner of NW 80th St and 24th Ave NW are [listed for $9.5M as a redevelopment site](https://www.zillow.com/homedetails/7724-24th-Ave-NW-Seattle-WA-98117/463925851_zpid/). Whatever gets built there will reshape our neighborhood for the next several decades.
 
 **Do Loyal Heights residents want to own and govern that redevelopment, or do we want to watch it happen to us?**
 
@@ -14,6 +14,8 @@ The answer is clear: in just {{< days-since-launch >}} days since launching this
 [Sign up here](/signup) to stay updated or indicate your interest.
 
 ## Get Involved
+
+**Become our executive director or join our board!** Write to jed@dtlh.org if you want to volunteer your time. 
 
 The fastest way to help is to **[fill out the interest form](/signup)** so we can gauge support and keep you posted.
 
