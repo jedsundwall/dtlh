@@ -1,8 +1,8 @@
 # Entity structure
 
 **Status:** PROPOSED
-**Last updated:** 2026-05-09
-**Decision records:** [260509 — Form the Trust as a Washington nonprofit corporation](../decisions/260509-form-wa-nonprofit-trust.md)
+**Last updated:** 2026-09-13
+**Decision records:** [260509 — Form the Trust as a Washington nonprofit corporation](../decisions/260509-form-wa-nonprofit-trust.md), [260913 — Adopt legal name and mission statement](../decisions/260913-legal-name-and-mission-statement.md)
 
 ## Summary
 
@@ -12,9 +12,9 @@ This is a working hypothesis. Counsel will pressure-test the specifics, and seve
 
 ## The two entities
 
-### Downtown Loyal Heights Trust, Inc. *(working name)*
+### Downtown Loyal Heights, Inc. *(adopted legal name — see [260913 decision](../decisions/260913-legal-name-and-mission-statement.md); "the Trust" below refers to this entity, used as a functional/brand label, not part of the legal name)*
 
-A Washington nonprofit corporation under [RCW 24.03A](https://app.leg.wa.gov/RCW/default.aspx?cite=24.03A). Filing fee ~$30 online. As of 2026-05-09: not yet filed. Expected within 7–10 business days of that date.
+A Washington nonprofit corporation under [RCW 24.03A](https://app.leg.wa.gov/RCW/default.aspx?cite=24.03A). Filing fee ~$30 online. As of 2026-05-09: not yet filed.
 
 What the Trust does:
 
@@ -72,7 +72,7 @@ Adapted from NorthEast Investment Cooperative's share-class architecture (see [p
 
 These are the things counsel and the founding board will need to settle. Each will get a decision record when resolved.
 
-- **Exact legal name.** Washington restricts certain words ("Bank" hard, "Trust" softer). "Downtown Loyal Heights Trust, Inc." may be fine, but counsel should confirm before filing. Alternatives: *Loyal Heights Community Trust, Inc.*; *Downtown Loyal Heights, Inc.* with "DTLH Trust" as a public brand.
+- ~~**Exact legal name.**~~ Resolved 2026-09-13: *Downtown Loyal Heights, Inc.* — see [260913 decision](../decisions/260913-legal-name-and-mission-statement.md). "Trust" avoided entirely rather than relying on counsel to clear it; "DTLH Trust" remains available as a public brand name.
 - **Member voting mechanics.** Should the Trust be member-managed (members elect the board directly) or board-managed with members getting a vote on a narrower set of decisions? Member-managed matches the homepage promise and is the working assumption.
 - **Resident definition.** Most likely defined by a precise neighborhood boundary (using the Loyal Heights Community Association map or specific zip codes). To be drafted in bylaws.
 - **501(c)(3) vs. 501(c)(4).** Likely (c)(3) with fiscal sponsorship in the interim. Defer until the lobbying / civic-engagement scope is clearer.

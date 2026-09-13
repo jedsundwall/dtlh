@@ -73,7 +73,7 @@ The homepage's all-caps disclaimer applies to everything here too: this is a con
 The full set we expect to have over time. Files marked with a checkmark exist; others are placeholders showing where the thinking will live.
 
 - [x] [`00-formation-memo.md`](./current/00-formation-memo.md) — the speed-run formation memo (260509). The gestalt overview; topical drilldowns below may evolve past it.
-- [ ] `01-mission-and-scope.md` — what we're trying to do and why
+- [x] [`01-mission-and-scope.md`](./current/01-mission-and-scope.md) — the adopted mission statement and scope notes
 - [x] [`02-entity-structure.md`](./current/02-entity-structure.md) — the two-entity Trust + LLC model
 - [ ] `03-governance.md` — board composition, member rights, voting
 - [ ] `04-membership-and-residency.md` — who counts as a Loyal Heights resident, and how we verify
@@ -85,6 +85,7 @@ The full set we expect to have over time. Files marked with a checkmark exist; o
 ## Index of `decisions/` so far
 
 - [`260509-form-wa-nonprofit-trust.md`](./decisions/260509-form-wa-nonprofit-trust.md) — form Downtown Loyal Heights Trust as a Washington nonprofit corporation under RCW 24.03A. Status: PROPOSED.
+- [`260913-legal-name-and-mission-statement.md`](./decisions/260913-legal-name-and-mission-statement.md) — adopts the legal name (*Downtown Loyal Heights, Inc.*, no "Trust") and the mission statement. Status: ACCEPTED.
 
 ## Index of `precedents/`
 
@@ -98,4 +99,4 @@ The full set we expect to have over time. Files marked with a checkmark exist; o
 ## Index of `drafts/`
 
 - [`site-update-language.md`](./drafts/site-update-language.md) — replacement copy for the *Where This Is* section once the Trust is filed
-- [`mission-and-governance-pivot.md`](./drafts/mission-and-governance-pivot.md) — broadened mission statement, self-perpetuating board, simplified single-LLC investment structure (July 2026 pivot)
+- [`mission-and-governance-pivot.md`](./drafts/mission-and-governance-pivot.md) — broadened mission statement (its wording was adopted 260913 — see decisions), self-perpetuating board, simplified single-LLC investment structure (July 2026 pivot). Governance and investment portions remain SKETCH.
